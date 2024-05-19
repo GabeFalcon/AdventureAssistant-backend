@@ -13,7 +13,7 @@ const app = express();
 const port = 3001;
 
 app.use(cors({
-  origin: 'https://adventure-assistant-fc2ee8e98510.herokuapp.com/',
+  origin: 'https://adventure-assistant-fc2ee8e98510.herokuapp.com',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true
 }));
